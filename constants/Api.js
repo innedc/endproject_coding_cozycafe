@@ -1,1 +1,1 @@
-export const API_URL = 'https://ap-ecc-express.onrender.com';
+export const API_URL = 'https://endproject-coding.onrender.com';
