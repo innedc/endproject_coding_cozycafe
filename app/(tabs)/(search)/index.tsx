@@ -100,7 +100,7 @@ export default function SearchScreen() {
                   <Link href={`/cafedetails/${cafe._id}`} style={styles.title}>
                     {cafe.title}
                   </Link>
-                  <Text>Location: {cafe.location}</Text>
+                  <Text>{cafe.location}</Text>
                   <Text>Price: {cafe.price}</Text>
                   <Text>Rating: {cafe.rating}</Text>
                 </View>
