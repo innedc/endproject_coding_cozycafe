@@ -1,19 +1,19 @@
 import { Stack } from 'expo-router';
 
-export default function HomeLayout() {
+
+export default function SearchLayout() {
   return (
     <Stack
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#f4511e',
+          backgroundColor: '#5D3023',
         },
-        headerTintColor: '#fff',
+        headerTintColor: '#BA977E',
         headerTitleStyle: {
           fontWeight: 'bold',
         },
       }}>
-      <Stack.Screen name="index" options={{ title: 'Home' }} />
-      <Stack.Screen name="details"  options={{ title: 'Details' }} />
+      <Stack.Screen name="index" options={{ title: 'Cozy Cafe' }} />
     </Stack>
   );
 }

@@ -67,7 +67,7 @@ export default function LoginScreen() {
 
 const styles = StyleSheet.create({
   safeArea: {
-    backgroundColor:"#ccc",
+    backgroundColor:"#BA977E",
     flex: 1
   },
   container: {
